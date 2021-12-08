@@ -1,0 +1,98 @@
+html {
+  height: auto;
+}
+body {
+  background: linear-gradient(41deg, #02daff 0%, #9af9d5 100%);
+  height: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: auto;
+}
+
+.App {
+  text-align: center;
+}
+p {
+  color: red;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0px !important;
+}
+.terms:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  width: auto;
+  text-align: center;
+  border: 12px solid rgba(255, 255, 255, 0.686);
+  border-radius: 50px;
+  padding: 2% 20%;
+}
+
+form input {
+  margin: 10px;
+}
+input {
+  display: inline-block;
+  border: 1px solid gray;
+  border-bottom: 2px solid gray;
+  border-radius: 2px;
+  width: 52vw;
+  max-width: 52vw;
+  margin: 5px;
+  text-align: center;
+}
+input::placeholder {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+select,
+option {
+  width: 200px;
+  height: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+div {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.option {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.submit {
+  background-color: rgb(101, 226, 29);
+  border: 2px solid rgba(255, 255, 255, 0.405);
+  border-radius: 5px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-weight: 600;
+}
+.dont-show-errors {
+  background-color: rgb(226, 220, 28);
+  border: 2px solid rgba(255, 255, 255, 0.405);
+  border-radius: 5px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-weight: 600;
+}
+.reset-btn {
+  background-color: rgb(160, 14, 14);
+  border: 2px solid rgba(255, 255, 255, 0.405);
+  border-radius: 5px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-weight: 600;
+}
