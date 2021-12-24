@@ -45,13 +45,13 @@ export default function App() {
                 {...register("firstName", {
                   required: true,
                   max: 20,
-                  min: 5,
+                  minLength: 5,
                   maxLength: 20,
-                  pattern: /[A - Za - zöçİğüÖÇĞÜşŞ]/,
+                  pattern: /[a-zA-Z - zöçİğüÖÇĞÜşŞ]/i,
                 })}
               />
               {errors.firstName && (
-                <p>Minimum 3 karakter Maksimum 20 Karakter Giriniz.</p>
+                <p>Minimum 5 karakter Maksimum 20 Karakter Giriniz.</p>
               )}
               <input
                 type="text"
@@ -60,7 +60,7 @@ export default function App() {
                   required: true,
                   minLength: 3,
                   maxLength: 20,
-                  pattern: /[A - Za - zöçİğüÖÇĞÜşŞ]/,
+                  pattern: /[a-zA-Z - zöçİğüÖÇĞÜşŞ]/i,
                 })}
               />
               {errors.lastName && (
@@ -87,7 +87,7 @@ export default function App() {
                   required: true,
                   maxLength: 20,
                   minLength: 5,
-                  pattern: /[az - ZA - Z - 0-9]/,
+                  pattern: /[a-zA-Z - 0-9]/,
                 })}
               />
               {errors.nickName && (
